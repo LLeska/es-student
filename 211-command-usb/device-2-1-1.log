@@ -1,0 +1,28 @@
+задание: 2.1.1
+проект: 211-command-usb
+устройство: 2e8a:000a
+серийный номер: E66098F29B472339
+порт: COM8
+начало: 2026-09-24T15:42:12
+   0.000 --> enable
+   0.122 <-- enable
+   0.123 <-- dbg read_line:74 got enable
+   0.124 <-- inf cmd_enable:27 led on
+   2.133 --> disable
+   2.283 <-- disable
+   2.284 <-- dbg read_line:74 got disable
+   2.285 <-- inf cmd_disable:32 led off
+   4.320 --> info
+   4.404 <-- info
+   4.405 <-- dbg read_line:74 got info
+   4.406 <-- pico-sdk: 2.3.0
+   4.407 <-- project: 211-command-usb
+   4.408 <-- repo: https://github.com/LLeska/es-student
+   4.409 <-- board: pico
+   4.410 <-- serial: E66098F29B472339
+   4.412 <-- chip: manufacturer 0x927, part 0x0002, revision 1
+   6.426 --> nosuchcommand
+   6.705 <-- nosuchcommand
+   6.706 <-- dbg read_line:74 got nosuchcommand
+   6.708 <-- err handle_command:63 unknown command: nosuchcommand
+итог: отправлено команд 4, принято строк 17
