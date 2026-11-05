@@ -1,0 +1,30 @@
+задание: 3.1.2
+проект: 311-adc
+устройство: 2e8a:000a
+серийный номер: E66098F29B4B8932
+порт: COM10
+начало: 2026-11-05T15:45:14
+   0.000 --> 
+   0.553 --> info
+   0.615 <-- info
+   0.616 <-- name: es-adc
+   0.616 <-- version: 1.0.0
+   0.616 <-- project: 311-adc
+   0.617 <-- repo: https://github.com/LLeska/es-student
+   0.617 <-- board: pico
+   0.617 <-- serial: E66098F29B4B8932
+   0.617 <-- chip: manufacturer 0x927, part 0x0002, revision 1
+   0.617 <-- pico-sdk: 2.3.0
+   1.615 --> get_temp
+   1.677 <-- get_temp
+   1.680 <-- temp: 21.5 C
+   2.617 --> get_temp
+   2.677 <-- get_temp
+   2.678 <-- temp: 21.1 C
+   3.678 --> get_temp
+   3.740 <-- get_temp
+   3.741 <-- temp: 21.5 C
+   4.682 --> get_voltage
+   4.745 <-- get_voltage
+   4.745 <-- voltage: 0.594 V
+итог: отправлено кадров 6, принято строк 17

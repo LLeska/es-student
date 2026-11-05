@@ -1,0 +1,88 @@
+задание: 3.2.1
+проект: 321-audio-recorder
+устройство: 2e8a:000a
+серийный номер: E66098F29B4B8932
+порт: COM10
+начало: 2026-11-05T15:57:31
+   0.001 --> 
+   0.564 --> help
+   0.567 <-- help
+   0.567 <-- help             list of commands
+   0.567 <-- timer_blink_start timer indicator period in ms
+   0.567 <-- timer_blink_stop stop indicator and count toggles
+   0.567 <-- cap_start        timer capture: cap_start <N> <period_us>
+   0.568 <-- cap_dump         dump timer capture
+   0.568 <-- dma_cap          capture block: dma_cap <N>
+   0.568 <-- stream_start     start PCM stream: stream_start [8|16]
+   0.569 <-- stream_stop      stop PCM stream
+   0.569 <-- generate_tone    PWM test tone: generate_tone <Hz>
+   0.569 <-- mic_bias         microphone DC bias
+   0.569 <-- mic_level        microphone RMS and peak: mic_level [<ms>]
+   0.569 <-- wdt_enable       watchdog timeout: wdt_enable <timeout_ms>
+   0.569 <-- hang             stop superloop to test watchdog
+   0.570 <-- reset_reason     last reset cause
+   0.570 <-- get_voltage      voltage on GP26
+   0.570 <-- get_temp         chip temperature
+   0.570 <-- tm_start         start telemetry: tm_start [<period_ms>]
+   0.570 <-- tm_stop          stop telemetry
+   0.570 <-- charge_on        charge RC circuit on GP22
+   0.570 <-- charge_off       discharge RC circuit
+   0.570 <-- info             device passport
+   0.570 <-- uptime           time since reset
+   0.571 <-- led_enable       turn LED on
+   0.573 <-- led_disable      turn LED off
+   0.573 <-- led_blink        blink LED
+   0.573 <-- led_period       set blink period: led_period <period_ms>
+   0.573 <-- button           button state and press count
+   0.573 <-- pi_start         start pi calculation: pi_start [<terms>]
+   0.627 <-- pi               pi calculation state and result
+   0.628 <-- profiling        stopwatch results
+   0.628 <-- profiling_reset  reset stopwatch results
+   1.569 --> info
+   1.632 <-- info
+   1.637 <-- name: es-recorder
+   1.638 <-- version: 1.0.0
+   1.638 <-- project: 321-audio-recorder
+   1.639 <-- repo: https://github.com/LLeska/es-student
+   1.639 <-- board: pico
+   1.639 <-- serial: E66098F29B4B8932
+   1.639 <-- chip: manufacturer 0x927, part 0x0002, revision 1
+   1.639 <-- pico-sdk: 2.3.0
+   2.570 --> timer_blink_start 250
+   2.631 <-- timer_blink_start 250
+   2.632 <-- timer_blink: started, period 250 ms
+   3.577 --> pi_start 3000000
+   3.639 <-- pi_start 3000000
+   3.639 <-- pi: started, 3000000 terms
+   4.640 --> uptime
+   4.702 <-- uptime
+   4.703 <-- uptime: 26505 ms
+   5.642 --> info
+   5.705 <-- info
+   5.705 <-- name: es-recorder
+   5.706 <-- version: 1.0.0
+   5.709 <-- project: 321-audio-recorder
+   5.711 <-- repo: https://github.com/LLeska/es-student
+   5.713 <-- board: pico
+   5.715 <-- serial: E66098F29B4B8932
+   5.717 <-- chip: manufacturer 0x927, part 0x0002, revision 1
+   5.718 <-- pico-sdk: 2.3.0
+   6.664 --> pi
+   6.727 <-- pi
+   6.727 <-- pi: running
+   8.664 --> timer_blink_stop
+   8.727 <-- timer_blink_stop
+   8.728 <-- timer_blink: stopped, 24 toggles
+   9.727 --> timer_blink_start 100
+   9.790 <-- timer_blink_start 100
+   9.791 <-- timer_blink: started, period 100 ms
+  11.789 --> timer_blink_stop
+  11.851 <-- timer_blink_stop
+  11.856 <-- timer_blink: stopped, 20 toggles
+  12.849 --> timer_blink_start 5
+  12.912 <-- timer_blink_start 5
+  12.912 <-- error: period_ms must be 10..60000
+  13.351 --> timer_blink_start
+  13.413 <-- timer_blink_start
+  13.413 <-- error: usage timer_blink_start <period_ms>
+итог: отправлено кадров 13, принято строк 68
